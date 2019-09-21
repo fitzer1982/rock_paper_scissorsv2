@@ -1,0 +1,10 @@
+let playerScore = 0;
+let computerScore = 0;
+const userScore_span = document.getElementById('userScore');
+const userScore_span = document.getElementById ('computerScore');
+const playerChoice_span = document.querySelector('.playerChoice');
+const computerChoice_span = document.querySelector('.computerChoice');
+const rock_button = document.getElementById('r');
+const paper_button = document.getElementById('p');
+const scissors_button = document.getElementById('s');
+const reset_button = document.getElementById('re');

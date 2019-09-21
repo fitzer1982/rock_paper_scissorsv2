@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rock,Paper, Scissors,Kill me</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+</head>
+<body>
+    <div class="backboard">
+        <button id="r" class="btn" type="button">ROCK</button>
+        <button id="p" class="btn" type="button">PAPER</button>
+        <button id="s" class="btn" type="button">SCISSORS</button>
+        <div class="scoreboard">
+            <span class="name" id="player">PLAYER</span>
+            <span class="playerChoice"></span>
+            <span class="score" id="playScore">0</span>
+            - 
+            <span class="name" id="skynet">SKYNET</span>
+            <span class="computerChoice"></span>
+            <span class="score" id="computerScore">0</span>           
+        </div>
+        <div class="gameover">
+            <span class='victory'></span>
+            <button id="re" class="btn" type="button">RESET?</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

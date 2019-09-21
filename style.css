@@ -1,0 +1,114 @@
+body{
+    background-image: url("http://img.fliptab.io/sky/1920x1200/1053208.jpg");
+}
+
+.btn{
+    background-color: transparent;
+    padding-top: 2.5px;
+    border: white 5px solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 100px;
+    color: white;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-shadow: 0.5px 0.5px 1px #040404;
+    box-shadow: 0.5px 0.5px 1px #040404;
+}
+
+#reset{
+    font-size: 30px;
+    widows: 200px;
+    height:50px;
+    bottom: 40px;
+    right: 50px;
+    position: absolute;
+
+}
+
+.backboard{
+    width: 1200px;
+    height: 350px;
+    background-image: url("https://www.nationalgeographic.com/content/dam/news/2016/05/16/starstruck-516/01-starstruck-spica-051616.adapt.1900.1.jpg");
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    text-shadow: 0.5px 0.5px 1px #040404;
+    box-shadow: 0.5px 0.5px 1px #040404;
+    position: relative;
+    
+}
+
+.scoreboard{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    margin-top: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#player{
+    position: absolute;
+    left: 50px;
+    transition: 1s;
+}
+
+#skynet {
+    position: absolute;
+    right: 50px;
+    transition: 1s;
+}
+
+.winner {
+    color: green;
+    transition: 1s;
+}
+
+.loser {
+    color: red;
+    transition: 1s;
+}
+
+.playerChoice{
+    position: absolute;
+    left: 51px;
+    font-size: 25px;
+    margin-top: 55px;
+}
+
+.cpuChoice {
+    position: absolute;
+    right: 51px;
+    font-size: 25px;
+    margin-top: 55px;
+}
+
+.gameover{
+    width: 700px;
+    height: 125px;
+    background-image: url("https://www.nationalgeographic.com/content/dam/news/2016/05/16/starstruck-516/01-starstruck-spica-051616.adapt.1900.1.jpg");
+    border-radius: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 0.5px 0.5px 1px #040404;
+    box-shadow: 0.5px 0.5px 1px #040404;
+    position: relative;
+}
+
+.victory {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 37px;
+    left: 50px;
+}
